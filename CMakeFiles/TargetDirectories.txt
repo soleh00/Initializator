@@ -1,0 +1,3 @@
+/home/soleh/Code/NMR1_t/CMakeFiles/NMR_exe.dir
+/home/soleh/Code/NMR1_t/CMakeFiles/edit_cache.dir
+/home/soleh/Code/NMR1_t/CMakeFiles/rebuild_cache.dir
