@@ -193,10 +193,10 @@ void NmrRelaxationSolve::ReadStart()
 		keys.push_back(make_pair(tmp1, tmp2));
 	}
 	f.close();
-	for(auto it : keys)
+	/*for(auto it : keys)
 	{
 		std::cout << it.first << "\t" << it.second << std::endl;
-	}
+	}*/
 
 	for(auto it : keys)
 	{
@@ -207,8 +207,6 @@ void NmrRelaxationSolve::ReadStart()
         	break;
     	}
 	}
-	
-	std::cout << key << std::endl;
 	for(auto it : keys)
 	{
 		size_t pos = it.second.find("IPRINT");
@@ -218,7 +216,6 @@ void NmrRelaxationSolve::ReadStart()
         	break;
     	}
 	}
-	std::cout << "It's ok!" << std::endl;
 	for(auto it : keys)
 	{
 		size_t pos = it.second.find("JPRINT");
